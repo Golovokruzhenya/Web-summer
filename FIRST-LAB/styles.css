@@ -1,26 +1,58 @@
+/*body {
+    height:100%;
+}
+
+
+
+.container{
+    max-width: 75%;
+    margin: o auto;
+}
+
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
 body {
-    margin: 0;
-}
-.header {
-    background-color: black;
-    font-family: 'Syne Mono', monospace;
-}
-.main-menu {
-    font-size : 1.2remf;
-    font-weight:bold;
-    padding: 20px 0;
+	height: 100%;
 }
 .main-menu a {
     text-decoration: none;
     color : white;
     margin-right : 30px;
 }
-.container{
-    max-width: 75%;
-    margin: o auto;
+.main-menu {
+    font-size : 1.2remf;
+    font-weight:bold;
+    padding: 20px 0;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.header {
+    background-color: black;
+    font-family: 'Syne Mono', monospace;
+}
+.footer {
+	flex: 0 0 auto;
 }
 p{
     font-family: 'Syne Mono', monospace;
     background-color: green;
     color:white;
+    
+}
+a{
+    font-family: 'Syne Mono', monospace;
+    color:grey;
+}
+h1{
+    font-family: 'Syne Tactile';
 }
