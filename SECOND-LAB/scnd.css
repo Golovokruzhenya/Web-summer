@@ -1,0 +1,10 @@
+.Author{
+    position: absolute;
+    top: 30%;
+    border: 4px outset orchid ;
+    margin-top: auto;
+    left:40%;
+    background-color: grey;
+    border-radius:8px;
+    
+}

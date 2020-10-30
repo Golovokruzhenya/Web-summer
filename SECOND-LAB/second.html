@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>SecondLab</title>
+  <link href = "scnd.css" rel = "stylesheet">
+ </head>
+ <body>
+    <style>
+        body { background: url(pics2/bg.jpg) }
+      </style>
+  <div class = "Author">
+            <form id="auth" action="https://httpbin.org/post" method="post" style = "width: 200px"></form>
+        <p align ="center">Логин</p>
+        <p align ="center"><input name="login" form="auth"></p>
+            <p align ="center">Пароль</p>
+        <p align = "center"><input type="password" name="pass" form="auth"></p>
+        <p align = "center"><input type="submit" form="auth" ></p> 
+        <p><input type="checkbox" checked name="dannie" form ="auth">Согласие на обработку персональных данных</p>
+        
+    </div>
+</body>
+
+
+ </html>
