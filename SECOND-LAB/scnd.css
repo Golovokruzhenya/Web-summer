@@ -6,5 +6,20 @@
     left:40%;
     background-color: grey;
     border-radius:8px;
-    
+}
+.Author1{
+    position: absolute;
+    top: 5%;
+    border: 4px outset orchid ;
+    margin-top: auto;
+    left:35%;
+    background-color: grey;
+    border-radius:8px;
+}
+p{
+    margin-left: 15%;
+
+}
+p.text{
+    margin-left:1%;
 }

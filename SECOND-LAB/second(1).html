@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>SecondLab(1)</title>
+  <link href = "scnd.css" rel = "stylesheet">
+ </head>
+ <body>
+    <style>
+        body { background: url(pics2/bg.jpg) }
+      </style>
+      <div class = "Author1">
+        <form id="auth" action="https://httpbin.org/post" method="post" style = "width: 500px"></form>
+            <b ><strong>ФИО</strong></b>
+            <p><input maxlength="30" size="45" placeholder="Иванов Иван Иванович" name = "fio" form = "auth"></p>
+            
+            <b><strong>e-mail</strong></b>
+            <p><input maxlength="30" id="mail" size="45"  type = "mail" placeholder=" @mail.ru" name = "mail" form = "auth"></p>
+
+            <b><strong>Откуда о нас узнали?</strong></b>
+            <p><input name="answer" type="radio" form = "auth">От друзей</p>
+            <p><input name="answer2" type="radio" form = "auth">Реклама от сторонних ресурсов</p>
+            <p><input name="answer3" type="radio" form = "auth">Наткнулся случайно</p>
+            
+            <b><strong>Тип обращения</strong></b>
+            <p><select name = "select" form = "auth">
+                <option value = "bad">Жалоба</option>
+                <option value = "good">Предложение</option>
+                </select></p>
+            
+            <b><strong>Текст сообщения</strong></b>
+            <p><textarea name="message" cols = "30" rows = "5" form = "auth"></textarea></p>
+
+            <b><strong>Вложения</strong></b>
+            <p><input type="file" form = "file"></p>
+
+            <p align = "center"><input type="checkbox" checked name="dannie" form ="auth">Согласие на обработку персональных данных</p>
+
+
+            <p align = "center"><input type="submit" form="auth" ></p>
+
+            
+           </form>
+
+    
+</div>
+ </body>
+ 
+ </html>
