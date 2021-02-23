@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <title>EXAM_PROTOTYPE</title>
+    <script src ="script.js" defer></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href = "css.css " rel = stylesheet>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class = "container-fluid ">
+      <div class = "row">
+          <div class = "col-md-7 gr-text">
+              <div class = "navbar-brand" style="text-align: center;"><a>Магазин разного оборудования</a></div>
+          </div>
+          <div class = "col-1"></div>
+          <div class = "col-md-4 g-text">
+                <nav class = "navbar justify-content-end"> 
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                            <a class="nav-link " href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="#">Disabled</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+    </div>
+</div>
+<br>
+    <div class = "container-fluid">
+        <div class = 'row'>
+        <div class = "col-md-4"></div>
+        <div class = "col-md-4 green-text" align = "center">text</div>
+        <div class = "col-md-4"></div>
+        </div>
+    </div>
+<section class = "section-a">
+    <div class = "slider middle">
+        <div class = "slides">
+            <input type="radio" name = "r" id = "r1" checked>
+            <input type="radio" name = "r" id = "r2" >
+            <input type="radio" name = "r" id = "r3" >
+            
+        
+            <div class = "slide s1"><img src = ""></div>
+            <div class = "slide"><img src = ""></div>
+            <div class = "slide"><img src = ""></div>
+           
+        </div>
+
+        <div class = navigation>
+            <label for = "r1" class = "bar"  alt=""></label>
+            <label for = "r2" class = "bar"  alt=""></label>
+            <label for = "r3" class = "bar"  alt=""></label>
+            
+        </div>
+    </div>
+</section >
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-md-4"></div>
+            <div class = "col-md-4 green-text">Тут будет текст</div>
+            <div class = "col-md-4"></div>
+        </div>
+    </div>
+        
+    <br>
+    
+<table class = "table table-block" >
+ <tr>
+    <td scope = "col-md-4" >
+            <div class = "card text-center" style = "width:18rem;">
+                <img class = "card=img-top" src="pics/tyachan.jpg" alt = "card image cap">
+                <div class = "card-body">
+                    <p class ="card-text border-top border-secondary">Some text</p>
+                </div>
+                <button type = "button" class = "btn btn-success">Test</button>
+            </div>
+    </td>
+    <td scope = "col-md-4">
+        <div class = "card text-center" style = "width:18rem;">
+            <img class = "card=img-top" src="pics/tyachan.jpg" alt = "card image cap">
+            <div class = "card-body">
+                <p class ="card-text border-top border-secondary">Some text</p>
+            </div>
+            <button type = "button" class = "btn btn-success">Test</button>
+        </div>
+</td>
+<td scope = "col-md-4">
+    <div class = "card text-center" style = "width:18rem;">
+        <img class = "card=img-top" src="pics/tyachan.jpg" alt = "card image cap">
+        <div class = "card-body">
+            <p class ="card-text border-top border-secondary">Some text</p>
+        </div>
+        <button type = "button" class = "btn btn-success">Test</button>
+    </div>
+</td>
+</tr>
+</table>
+ 
+
+<container class = "container-fluid">
+    <div class = "col-md-12 bord-1"><h2 align = "center">Тут будет большой текст</h2></div>
+   <div class = "row bord-1">
+       <div class = "col-md-1"></div>
+    <div class = "col-md-4 py-4">
+        <label>Административный округ</label>
+        <br>
+        <select class="form-select form-select-md mb-3">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+    </div>
+    <div class = "col-md-1"></div>
+    <div class = "col-md-1"></div>
+    <div class = "col-md-4  py-4">
+        <label>Район</label>
+        <br>
+        <select class="form-select form-select-md mb-2">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+    </div>
+    <div class = "col-md-1"></div>
+    <div class = "col-md-1"></div>
+    <div class="col-md-2 py-5">
+        <label>Тип</label>
+        <input class="form-control typeDep" type="text" placeholder="Не обязательно">
+    </div>
+
+    <div class="col-md-2 py-5 ">
+        <label>Соц. скидки</label>
+        <select class="socSale form-control">
+            <option>Без разницы</option>
+            <option>Есть</option>
+            <option>Нет</option>
+        </select>
+    </div>
+    <div class ="col-md-2"></div>
+    <div class ="col-md-3">
+        <br>
+        <br>
+        <br>
+        <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+    </div>
+    </div>
+</container>
+
+
+<container class = "container-fluid">
+<div class = "row">
+    <div class ="col-md-8 offset-md-2 bord-1">
+        <table class="table table-bordered">
+            <thead class="thead">
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>Действие</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td><button type = "button" class= "btn button btn-success btn-md"></button></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td><button type = "button" class= "btn button btn-success btn-md"></button></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td><button type = "button" class= "btn button btn-success btn-md"></button></td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td><button type = "button" class= "btn button btn-success btn-md"></button></td>
+            </tr>
+            </tbody>
+        </table>
+</div>
+</div>
+</container>
+
+<!-- МОДАЛЬНОЕ ОКНО ВСТАВИТЬ В КНОПКУ-->
+<a href ="#popup">XXXXX</a>;
+<div id ="popup" class ="popup">
+        <div class = "popup_body">
+            <div class = "popup_content">
+                <a href = "#" class = "popup_close">X</a>
+                <div class = "popup_title">Модальное окно</div>
+                <div class = "popup_text">
+                    <container class = "container">
+                        <div class = "container-fluid">
+                            <div class = "col-md-8 offset-md-2">
+                            <div class = "card">
+                                <div class = "card-title bord-1" align ="center">
+                                    <h5>Оформление заказа</h5>
+                                </div>
+                                <div class = "card-body">
+                                    <div class = "card-text">Позиция заказа
+
+                                    </div>
+                                    <div> <!-- ТУТ ДОБАВИТЬ ЗАКАЗЫ--></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                 </container>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="foodBlock" class="foodBlock text-center container-fluid">
+
+<h1>Меню</h1>
+    <div class="row">
+        
+        <div class="col-md-3 p-5">
+            <img src="sources/img/eda.png" class="img-fluid">
+            <h2>Пельмени</h2>
+            <p>Блюдо в виде отварных изделий из пресного теста с начинкой из рубленого мяса или рыбы, попавшее в русскую кухню с Урала</p>
+            <h4 class="priceMenu">470₽</h4>
+                <button class="minusBtn btn btn-outline-secondary">-</button><input type="text" readonly size="1" name="" class="mx-4 costMenu"><button class="plusBtn btn btn-outline-secondary">+</button>
+        </div>
+
+    </div>
+</div>
+</body>
